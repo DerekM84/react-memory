@@ -1,0 +1,16 @@
+
+
+.tile {
+    height:6%;
+    width:15%;
+margin:2% auto;
+    box-shadow: inset 10px;
+    background-color:black;
+    border-radius:5%;
+    box-shadow: 3px  rgb(33, 33, 68);
+}
+
+.tile-image {
+    height:100%;
+    width:100%;
+}

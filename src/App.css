@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.body {
+  background-color:rgb(33, 33, 68);
+
+}
+.tiles-container {
+border-radius:5%;
+background-color: lightblue;
+  height: 60%;
+  width: 80%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+  
+
+}
+
