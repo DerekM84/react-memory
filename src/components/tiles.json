@@ -1,51 +1,63 @@
 [
 {
     "id":1,
-    "img":"/images/cleric.png"
+    "img":"/images/cleric.png",
+    "clicked":false
 
 },
 {
     "id":2,
-    "img":"/images/direlord.png"
+    "img":"/images/direlord.png",
+    "clicked":false
 },
 {
     "id":3,
-    "img":"/images/druid.png"
+    "img":"/images/druid.png",
+    "clicked":false
 },
 {
     "id":4,
-    "img":"/images/enchanter.png"
+    "img":"/images/enchanter.png",
+    "clicked":false
 },
 {
     "id":5,
-    "img":"/images/monk.png"
+    "img":"/images/monk.png",
+    "clicked":false
 },
 {
     "id":6,
-    "img":"/images/paladin.png"
+    "img":"/images/paladin.png",
+    "clicked":false
 },
 {
     "id":7,
-    "img":"/images/ranger.png"
+    "img":"/images/ranger.png",
+    "clicked":false
 },
 {
     "id":8,
-    "img":"/images/rogue.png"
+    "img":"/images/rogue.png",
+    "clicked":false
 },
 {
     "id":9,
-    "img":"/images/shaman.png"
+    "img":"/images/shaman.png",
+    "clicked":false
 },
 {
     "id":10,
-    "img":"/images/summoner.png"
+    "img":"/images/summoner.png",
+    "clicked":false
 },
 {
     "id":11,
-    "img":"/images/warrior.png"
+    "img":"/images/warrior.png",
+    "clicked":false
 },
 {
     "id":12,
-    "img":"/images/wizard.png"
+    "img":"/images/wizard.png",
+    "clicked":false
 }
 ]

@@ -7,7 +7,7 @@ function Tile(props) {
 return (
 
     <div className="tile" data-id={props.id} onClick={() => props.handleClicked(props.id)}>
-        <img className="tile-image" src={props.img}/>
+        <img className="tile-image" alt="class-logo" src={props.img}/>
     </div>
 )
 }
