@@ -57,9 +57,24 @@ handleBadGuess = arr => {
 shuffle = arr => {
     for (let i = arr.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
+      let k = Math.floor(Math.random() * (i + 1));
+      let l = Math.floor(Math.random() * (i + 1));
+      let m = Math.floor(Math.random() * (i + 1));
+      let n = Math.floor(Math.random() * (i + 1));
+
       [arr[i], arr[j]] = [arr[j], arr[i]];
+      [arr[i], arr[k]] = [arr[k], arr[i]];
+      [arr[i], arr[l]] = [arr[l], arr[i]];
+      [arr[i], arr[m]] = [arr[m], arr[i]];
+      [arr[m], arr[i]] = [arr[i], arr[m]];
+      [arr[j], arr[l]] = [arr[l], arr[j]];
+      [arr[i], arr[n]] = [arr[n], arr[i]];
+
+
+
       return arr;
-    }};
+    }
+  };
 
 
   render() {
