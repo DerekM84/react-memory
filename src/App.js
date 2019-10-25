@@ -70,8 +70,6 @@ shuffle = arr => {
       [arr[j], arr[l]] = [arr[l], arr[j]];
       [arr[i], arr[n]] = [arr[n], arr[i]];
 
-
-
       return arr;
     }
   };
